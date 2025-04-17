@@ -18,16 +18,29 @@
 // ================================
 // 2-masala
 // ================================
-// const a ={
-//  name:"telefon",
-//  price: 1000,
+// =================================
+// 2-Masala:Narxga soliq qo'shuvchi funksiya
+// =================================
+
+// const a = {
+//     name:"Telefon",
+//     price:1000,
 // }
 
-// function f() {
-//     a.pricewithTax = a.price % 12
-//     return`name ${a.name} price ${a.price} pricewithTax ${a.pricewithTax}`
+
+
+// function addtax() {
+// let num = phoneInfo.price * 0.12;
+// return phoneInfo.price + num;
+
 // }
-// console.log(f());  shu ikkini qilolmadm ustoz
+
+
+
+// phoneInfo.priceWithTax = addTax();
+
+// console.log(a);
+
 
 
 
